@@ -10,16 +10,70 @@
 /* GENERAL */
 
 .body-container {
-        max-width: 1200px;
         margin: 0, auto;
 }
 
-/* HEADER */
+.blue-buttons {
+    background-color: rgb(17, 115, 254);
+    color: white;
+    padding: 5px;
+    border: none;
+}
+img {
+    width: 100%;
+}
 
+/* HEADER */
+.header-top {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    align-items: center
+}
+#logo {
+    width: 100px;
+    vertical-align: middle;
+}
+.header-buttons {
+    background-color: transparent;
+    color: rgb(128, 128, 128);
+    border: none;
+    padding: 10px;
+}
+
+.header-bottom {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(156, 217, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom-container {
+    width: 50%;
+    display: flex;  
+    flex-wrap: wrap;
+    position: relative;
+}
+.header-bottom-info-container {
+    width: 25%;
+}
+.header-bottom-img-container {
+    width: 75%;
+    
+}
+img { 
+    width: 100%;
+}
 
 
 /* MAIN */
-
+.main-container {
+    width: 100%;
+}
 
 
 /* FOOTER */
