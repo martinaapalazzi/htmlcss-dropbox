@@ -29,19 +29,30 @@ a {
 }
 
 /* HEADER */
-.header-top {
+header {
+    margin-bottom: 80px;
+
+}
+.container-full {
     width: 100%;
-    height: 80px;
+    margin: 0 auto;
+}
+.main-nav-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid black;
-    align-items: center
+    align-items: center;
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+.header-left, .header-right {
+    display: inline-block;
 }
 #logo {
     width: 100px;
-    vertical-align: middle;
 }
+
 .header-buttons {
     background-color: transparent;
     color: rgb(128, 128, 128);
@@ -49,19 +60,23 @@ a {
     padding: 10px;
 }
 
-.header-bottom {
+.container-normal {
     width: 100%;
     height: 500px;
+    margin: 0 auto;
     background-color: rgb(156, 217, 248);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
 }
-.header-bottom-container {
+.jumbotrom {
     width: 50%;
-    display: flex;  
-    flex-wrap: wrap;
+    background-color: pink;
+    border: 1px black solid;
+    display: inline-block;
     position: relative;
+    top: 60px;
+
 }
 h1 {
     margin-bottom: 25px;
@@ -88,7 +103,7 @@ img {
     margin: 100px 0px;
 }
 .main-container {
-    width: 80%;
+    width: 40%;
     background-color: pink;
 }
 h2, p {
@@ -107,7 +122,10 @@ h2, p {
     padding: 10px;
     border: 1px black solid;
     display: block;
-    
+}
+.special-col {
+    width: 100%;
+
 }
 .col-user {
     text-align: center;
@@ -117,6 +135,16 @@ h2, p {
     margin-top: 20px;
     display: block;
     
+}
+
+
+
+
+
+.trasparent-button {
+    background-color: transparent;
+    border: 1px black solid;
+    padding: 10px;
 }
 
 
