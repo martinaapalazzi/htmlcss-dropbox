@@ -16,14 +16,11 @@
 .container-full {
     width: 100%;
     margin: 0 auto;
-    background-color: bisque;
-
 }
 
 .small-container {
     width: 900px;
     margin: 0 auto;
-    
 }
 
 .info {
@@ -55,14 +52,12 @@ a {
 /* HEADER */
 header {
     margin-bottom: 80px;
-
 }
 
 .main-nav-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid black;
     align-items: center;
     vertical-align: middle;
     padding: 5px 15px;
@@ -102,7 +97,11 @@ header {
 h1 {
     margin-bottom: 25px;
 }
-
+.white-button {
+    background-color: white;
+    border: 1px black solid;
+    padding: 10px;
+}
 
 
 /* MAIN */
@@ -151,14 +150,9 @@ h2, p {
 .info-gap {
     padding: 50px;
 }
-.trasparent-button {
-    background-color: transparent;
-    border: 1px black solid;
-    padding: 10px;
-}
 
 h3 {
-    margin: 20px 0px;
+    margin: 70px 0px;
 }
 .main-six-col {
     width: calc(100% / 3);
@@ -166,8 +160,7 @@ h3 {
 }
 #special-link {
     color: blue;
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
 
 .brands-flex {
@@ -211,15 +204,28 @@ hr {
     background-color: red;
 }
 .cinque {
-    background-color: rgb(124, 237, 237);
+    background-color: rgb(88, 181, 221);
 }
 .sei {
     background-color: blue;
 }
 .sette {
     background-color: yellow;
+}
+
+.container-azzurro {
+    background-color: rgb(131, 202, 232);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.titolo {
+    color: rgb(142, 34, 34);
     
 }
+
 
 
 /* FOOTER */
