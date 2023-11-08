@@ -24,8 +24,17 @@
     background-color: pink;
 }
 
+.info {
+    display: flex;
+}
 
+.small-info {
+    width: 30%;
+}
 
+.big-info {
+    width: 70%;
+}
 
 img {
     width: 100%;
@@ -83,7 +92,7 @@ header {
 }
 
 .jumbotrom {
-    width: 50%;
+    width: 1000px;
     position: relative;
     top: 60px;
 }
@@ -92,17 +101,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-.info {
-    display: flex;
-}
-
-.small-info {
-    width: 25%;
-}
-
-.big-info {
-    width: 75%;
-}
 
 
 /* MAIN */
@@ -148,6 +146,9 @@ h2, p {
     display: block;
 }
 
+.info-gap {
+    padding: 50px;
+}
 .trasparent-button {
     background-color: transparent;
     border: 1px black solid;
@@ -164,30 +165,29 @@ h2, p {
     width: 100%;
     height: 300px;
     background-color: black;
+}
+.footer-container-top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 40px;
 }
 .footer-my-col {
     width: calc(100% / 5);
     background-color: aquamarine; 
     color: white; 
+    display: inline-block;
+    text-decoration: none;
 }
 li {
     text-decoration: none;
 }
-
-hr {
-    width: 5%;
-    position: absolute;
-    left: 50px;
-    bottom: 30px;
+.footer-container-bottom {
+    padding: 40px;
 }
 .footer-language {
     color: white;
-    display: flex;
-    gap: 10px;
+    gap: 20px;
     
 }
