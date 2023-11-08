@@ -21,7 +21,7 @@
 .small-container {
     width: 900px;
     margin: 0 auto;
-    background-color: pink;
+    
 }
 
 .info {
@@ -94,7 +94,7 @@ header {
 .jumbotrom {
     width: 1000px;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 h1 {
@@ -155,7 +155,13 @@ h2, p {
     padding: 10px;
 }
 
-
+h3 {
+    margin: 20px 0px;
+}
+.main-six-col {
+    width: calc(100% / 3);
+    padding: 20px;
+}
 
 
 
@@ -175,13 +181,14 @@ h2, p {
 }
 .footer-my-col {
     width: calc(100% / 5);
-    background-color: aquamarine; 
-    color: white; 
-    display: inline-block;
-    text-decoration: none;
+    color: white;     
 }
 li {
-    text-decoration: none;
+    display: inline-block;
+}
+.white-list {
+    color: white;
+    
 }
 .footer-container-bottom {
     padding: 40px;
