@@ -189,6 +189,15 @@ h3 {
     align-items: center;
     padding: 50px;
 }
+.middle-brand {
+    padding: 50px;
+}
+hr {
+    width: 30px;
+}
+#middle-brand-size {
+    width: 200px;
+}
 .uno {
     background-color: rgb(173, 254, 173); 
 }
@@ -201,7 +210,16 @@ h3 {
 .quattro {
     background-color: red;
 }
-
+.cinque {
+    background-color: rgb(124, 237, 237);
+}
+.sei {
+    background-color: blue;
+}
+.sette {
+    background-color: yellow;
+    
+}
 
 
 /* FOOTER */
