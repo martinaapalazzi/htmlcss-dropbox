@@ -115,7 +115,7 @@ h1 {
 }
 
 h2, p {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .col-flex {
@@ -177,6 +177,7 @@ h3 {
 }
 .brands {
     width: 50%; 
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,6 +225,23 @@ hr {
 .titolo {
     color: rgb(142, 34, 34);
     
+}
+
+.small-container h2 {
+    margin: 70px 0px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px black solid;
+    padding: 20px
+}
+
+.small-container :last-child {
+    margin-bottom: 1px black solidi;
 }
 
 
