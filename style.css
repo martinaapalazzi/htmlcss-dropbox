@@ -49,6 +49,11 @@ a {
     border: none;
 }
 
+hr {
+    width: 70px;
+    margin: 40px 0px;
+}
+
 /* HEADER */
 header {
     margin-bottom: 80px;
@@ -143,8 +148,13 @@ h2, p {
 }
 
 .plan-body {
-    margin-top: 20px;
-    display: block;
+    padding: 20px;
+}
+.fa-ul li {
+    margin-bottom: 20px;
+}
+.acquista-ora {
+    margin-top: 30px;
 }
 
 .info-gap {
@@ -186,9 +196,7 @@ h3 {
 .middle-brand {
     padding: 50px;
 }
-hr {
-    width: 30px;
-}
+
 #middle-brand-size {
     width: 200px;
 }
@@ -249,29 +257,29 @@ hr {
 /* FOOTER */
 .footer-container {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: black;
 }
 .footer-container-top {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding: 90px
 }
 .footer-my-col {
     width: calc(100% / 5);
-    color: white;     
-}
-li {
-    display: inline-block;
+    color: white;
+    flex-wrap: wrap; 
 }
 .white-list {
     color: white;
 }
 .footer-container-bottom {
-    padding: 50px;
+    padding: 50px;    
 }
 .footer-language {
     color: white;
+    position: relative;
+    left: 0;
 }
